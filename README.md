@@ -1,18 +1,17 @@
 # RMConvert
 
-An Android currency converter for the Malaysian Ringgit (MYR). Exchange rates come from Bank Negara Malaysia's official daily rates.
+A simple Android currency converter for the Malaysian Ringgit (MYR). Rates are based on Bank Negara Malaysia's official daily exchange rates.
 
 ## Features
 
-- Convert between MYR and foreign currencies at BNM's daily rate
+- Convert between MYR and foreign currencies
+- Daily rates from the [BNM Open API](https://apikijangportal.bnm.gov.my/)
 - Tourist tax refund calculator
 
-## Tech stack
+## Built with
 
-- Kotlin + Jetpack Compose
-- [BNM Open API](https://apikijangportal.bnm.gov.my/) for exchange rates
-- Min SDK 26
+Kotlin, Jetpack Compose (min SDK 26)
 
-## Build
+## Run
 
 Open the project in Android Studio and run the `app` configuration.
